@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Barrett Design</title>
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="styles/tailwind.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/mhh5vga.css" />
+	</head>
+	<body>
+		<!-- Hero -->
+		<section
+			class="h-80v relative"
+			style="
+				background: url(/assets/Portfolio_Hero-min.jpeg) no-repeat center
+					center/cover;
+			"
+		>
+			<nav class="w-4/5 mx-auto py-2 grid grid-cols-12">
+				<div class="logo inline-flex col-span-4 items-center">
+					<img src="assets/logo.svg" alt="" class="inline" />
+					<h1 class="text-2xl font-logo font-bold uppercase text-secondary">
+						Barrett Design
+					</h1>
+				</div>
+				<ul
+					class="
+						object-top
+						flex
+						justify-around
+						items-center
+						col-span-4 col-start-5
+						uppercase
+						text-xl
+						font-nav font-bold
+						text-secondary
+					"
+				>
+					<li class="hover:underline"><a href=""> Home</a></li>
+					<li class="hover:underline"><a href=""> Projects</a></li>
+					<li class="hover:underline"><a href=""> About Me</a></li>
+					<li class="hover:underline"><a href=""> Blog</a></li>
+				</ul>
+			</nav>
+			<div class="hero-content w-4/5 mx-auto mt-32">
+				<h1 class="text-5xl font-extrabold text-secondary uppercase">Design</h1>
+				<h1 class="text-5xl font-extrabold text-secondary uppercase mt-3">
+					Marketing
+				</h1>
+				<h1 class="text-5xl font-extrabold text-secondary uppercase mt-3">
+					Optimization
+				</h1>
+				<button
+					class="
+						shadow-lg
+						text-lg
+						bg-white
+						rounded-md
+						uppercase
+						font-bold
+						py-3
+						px-8
+						mt-3
+						hover:underline
+					"
+				>
+					Learn More
+				</button>
+			</div>
+		</section>
+
+		<!-- Services -->
+		<section
+			class="w-4/5 mx-auto grid grid-cols-4 grid-rows-6 mt-16"
+			style="height: 600px"
+		>
+			<!-- Service Tabs -->
+			<button
+				class="active col-span-1 bg-primary hover:bg-hover_primary"
+				id="service1_btn"
+			>
+				<h2 class="uppercase text-white">Website Design</h2>
+			</button>
+			<button
+				class="
+					col-span-1
+					row-span-1
+					bg-primary
+					hover:bg-hover_primary
+					border-white border-l-2
+				"
+				id="service2_btn"
+			>
+				<h2 class="uppercase text-white">Search Engine Optimization</h2>
+			</button>
+			<button
+				class="
+					col-span-1
+					row-span-1
+					bg-primary
+					hover:bg-hover_primary
+					border-white border-l-2
+				"
+				id="service3_btn"
+			>
+				<h2 class="uppercase text-white">Marketing & Ad Campaigns</h2>
+			</button>
+			<button
+				class="
+					col-span-1
+					row-span-1
+					bg-primary
+					hover:bg-hover_primary
+					border-white border-l-2
+				"
+				id="service4_btn"
+			>
+				<h2 class="uppercase text-white">App development & CRM</h2>
+			</button>
+
+			<!-- Service Info -->
+			<div class="col-span-6 row-span-5 grid grid-cols-12 grid-rows-6">
+				<div
+					class="col-span-8 row-span-full flex items-end"
+					style="
+						background: url(/assets/Stock_WebDev-min.jpeg) no-repeat center
+							center/cover;
+					"
+					id="service"
+				></div>
+				<div
+					class="bg-secondary px-5 col-span-4 row-span-full"
+					id="service-content"
+				>
+					<div class="text-white text-center" id="service-content">
+						<h2
+							class="
+								font-bold
+								my-5
+								text-xl
+								border-b-8 border-primary
+								pb-2
+								uppercase
+							"
+						>
+							Website Design
+						</h2>
+
+						<p class="text-lg mb-10">
+							We design fast intuitive websites customized for your business
+							needs. Having a clean professional website allows users to find
+							the information they want quickly and easily.
+						</p>
+						<p class="text-lg">
+							Depending on your requirements, we can build complex apps using
+							modern frameworks or simple blog sites using WordPress.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="h-6 col-span-full bg-primary"></div> -->
+		</section>
+
+		<!-- Footer -->
+		<footer class="uppercase bg-secondary text-white mt-16 pb-10 pt-5">
+			<div class="w-4/5 flex flex-col mx-auto">
+				<div class="grid grid-cols-12 my-5">
+					
+					<div class=" col-span-1 text-center">
+						<h3 class="text-3xl font-light mb-5 leading-3">Services</h3>
+						<ul class="text-center leading-loose font-thin text-gray-300 text-sm">
+							<li>
+								<a href="#" class="font-thin">Web design</a>
+							</li>
+							<li>
+								<a href="#" class="font-thin">SEO</a>
+							</li>
+							<li>
+								<a href="#" class="font-thin">Marketing</a>
+							</li>
+							<li>
+								<a href="#" class="font-thin">App Development</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-span-1 col-start-5 text-center">
+						<h3 class="text-3xl font-light mb-5 leading-3">About</h3>
+						<ul class="text-center leading-loose text-gray-300 text-sm">
+							<li>
+								<a href="#" class="font-thin">Company</a>
+							</li>
+							<li>
+								<a href="#" class="font-thin">Projects</a>
+							</li>
+							<li>
+								<a href="#" class="font-thin">Blog</a>
+							</li>
+							<li>
+								<a href="#" class="font-thin">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-span-4 items-start col-start-9">
+						<div class="flex mb-5">
+							
+							<h1 class="text-2xl font-logo font-bold uppercase text-hover_primary leading-3">
+								Barrett Design Solutions
+							</h1>
+						</div>
+						<p class="text-xs mb-5">
+							Barrett Design Solutions builds websites for small businesses and
+							manage SEO. Packages include fast builds with WordPress for
+							customer flexibility. Custom HTML/CSS also available depending on
+							customer needs.
+						</p>
+						<p class="text-xs text-gray-300">
+							https://www.linkedin.com/in/scott-young-023705150/
+						</p>
+						<p class="text-xs text-gray-300">
+							Barrett Design Solutions © 2021
+						</p>
+					</div>
+			</div>
+		</footer>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="/js/index.js"></script>
+	</body>
+</html>
