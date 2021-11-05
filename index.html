@@ -5,13 +5,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Barrett Design Solutions provides web based solutions for the North Texas area. Services include SEO, Website Design, and Graphic Design">
-		<meta name="keywords" content="shopify layouts, wordpress themes, denton website design, denton graphic design, denton SEO, website design, graphic design, SEO, shopify, wordpress, graphic designer dfw, plano web design">
+		<meta name="keywords" content="shopify layouts, wordpress themes, denton website design, denton graphic design, denton SEO, website design, graphic design, SEO, shopify, wordpress, graphic design dfw, plano web design">
 		<title>Barrett Design</title>
 		<!-- CSS Files -->
 		<link rel="stylesheet" href="styles/tailwind.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/mhh5vga.css" />
 	</head>
-	<body>
+	<body style="background-color: #EBEBEB">
 		<!-- Hero -->
 		<section
 			class="h-80v relative"
@@ -20,8 +20,9 @@
 					center/cover;
 			"
 		>
-			<nav class="w-4/5 mx-auto py-2 grid grid-cols-12">
-				<div class="logo inline-flex col-span-4 items-center">
+			<!-- Nav -->
+			<nav class="relative w-4/5 mx-auto py-2 hidden md:flex items-center lg:justify-center md:justify-end space-x-1">
+				<div class="flex items-center absolute left-0">
 					<img src="assets/logo.svg" alt="" class="inline" />
 					<h1 class="text-2xl font-logo font-bold uppercase text-secondary">
 						Barrett Design
@@ -31,27 +32,72 @@
 					class="
 						object-top
 						flex
-						justify-around
-						items-center
-						col-span-4 col-start-5
+						justify-end
 						uppercase
 						text-xl
 						font-nav font-bold
 						text-secondary
 					"
 				>
-					<li class="hover:underline"><a href=""> Home</a></li>
-					<li class="hover:underline"><a href=""> Projects</a></li>
-					<li class="hover:underline"><a href=""> About Me</a></li>
+					<li class="hover:underline mr-10"><a href=""> Home</a></li>
+					<li class="hover:underline mr-10"><a href=""> Projects</a></li>
+					<li class="hover:underline mr-10"><a href=""> About Me</a></li>
 					<li class="hover:underline"><a href=""> Blog</a></li>
 				</ul>
 			</nav>
-			<div class="hero-content w-4/5 mx-auto mt-32">
-				<h1 class="text-5xl font-extrabold text-secondary uppercase">Design</h1>
-				<h1 class="text-5xl font-extrabold text-secondary uppercase mt-3">
+
+			<!-- Nav Mobile -->
+			<div class="md:hidden flex items-center h-10 justify-end bg-secondary h-16">
+				<div class="flex items-center absolute left-0">
+					<h1 class="text-2xl font-logo font-bold uppercase text-primary ml-6">
+						Barrett Design
+					</h1>
+				</div>
+				<button class="outline-none mobile-menu-button mr-6">
+					<svg
+						class="w-10 h-10 text-gray-500"
+						x-show="!showMenu"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+					>
+					<path d="M4 6h16M4 12h16M4 18h16"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="hidden mobile-menu w-full">
+				<ul class="flex flex-col font-nav font-bold
+				text-white text-2xl items-center bg-secondary absolute top-0 w-full py-5">
+					<li class="hover:underline"><a href=""> Home</a></li>
+					<li class="hover:underline my-5"><a href=""> Projects</a></li>
+					<li class="hover:underline mb-5"><a href=""> About Me</a></li>
+					<li class="hover:underline"><a href=""> Blog</a></li>
+
+					<button class="outline-none mobile-menu-close absolute top-5 right-5">
+						<svg 
+						class="w-10 h-10 text-gray-500"viewPort="0 0 12 12" version="1.1"
+						xmlns="http://www.w3.org/2000/svg">
+							<line x1="1" y1="20" 
+										x2="20" y2="1" 
+										stroke="currentColor" 
+										stroke-width="2"/>
+							<line x1="1" y1="1" 
+										x2="20" y2="20" 
+										stroke="currentColor" 
+										stroke-width="2"/>
+						</svg>
+					</button>
+				</ul>
+			</div>
+			<div class="hero-content w-4/5 mx-auto mt-64 sm:mt-32">
+				<h1 class="text-2xl md:text-5xl font-extrabold text-secondary uppercase">Design</h1>
+				<h1 class="text-2xl md:text-5xl font-extrabold text-secondary uppercase mt-3">
 					Marketing
 				</h1>
-				<h1 class="text-5xl font-extrabold text-secondary uppercase mt-3">
+				<h1 class="text-2xl md:text-5xl font-extrabold text-secondary uppercase mt-3">
 					Optimization
 				</h1>
 				<button
@@ -62,28 +108,39 @@
 						rounded-md
 						uppercase
 						font-bold
-						py-3
-						px-8
+						py-2
+						px-6
+						md:py-3
+						md:px-8
 						mt-3
 						hover:underline
+						z-50
 					"
 				>
 					Learn More
 				</button>
 			</div>
 		</section>
+		
+		<!-- About Us -->
+		<section class="flex flex-col items-center justify-center my-10 md:w-4/5 mx-auto text-secondary">
+			<h1 class="uppercase text-2xl font-extrabold">What we do</h1>
+			<p class="px-4 my-10 text-xl text-center font-bold">Barrett Design helps businesses get new customers by improving their Web presence. There are countless small business owners who are talented and passionate about what they do. Our mission is to put them in contact with people who need their services.</p>
+			<h1 class="uppercase text-2xl font-extrabold text-center">-when you succeed, we succeed!</h1>
+		</section>
+		
 
 		<!-- Services -->
 		<section
-			class="w-4/5 mx-auto grid grid-cols-4 grid-rows-6 mt-16"
+			class="md:w-4/5 mx-auto grid grid-cols-4 grid-rows-6 mt-16"
 			style="height: 600px"
 		>
 			<!-- Service Tabs -->
 			<button
-				class="active col-span-1 bg-primary hover:bg-hover_primary"
+				class="active col-span-1 row-span-1 row-start-6 md:row-start-1 bg-primary hover:bg-hover_primary"
 				id="service1_btn"
 			>
-				<h2 class="uppercase text-white">Website Design</h2>
+				<h2 class="text-sm md:text-md uppercase text-white">Website Design</h2>
 			</button>
 			<button
 				class="
@@ -92,10 +149,11 @@
 					bg-primary
 					hover:bg-hover_primary
 					border-white border-l-2
+					row-start-6 md:row-start-1
 				"
 				id="service2_btn"
 			>
-				<h2 class="uppercase text-white">Search Engine Optimization</h2>
+				<h2 class="text-sm md:text-md uppercase text-white">Search Engine Optimization</h2>
 			</button>
 			<button
 				class="
@@ -104,10 +162,11 @@
 					bg-primary
 					hover:bg-hover_primary
 					border-white border-l-2
+					row-start-6 md:row-start-1
 				"
 				id="service3_btn"
 			>
-				<h2 class="uppercase text-white">Marketing & Ad Campaigns</h2>
+				<h2 class="text-sm md:text-md uppercase text-white">Marketing & Ad Campaigns</h2>
 			</button>
 			<button
 				class="
@@ -116,16 +175,17 @@
 					bg-primary
 					hover:bg-hover_primary
 					border-white border-l-2
+					row-start-6 md:row-start-1
 				"
 				id="service4_btn"
 			>
-				<h2 class="uppercase text-white">App development & CRM</h2>
+				<h2 class="text-sm md:text-md uppercase text-white">App development & CRM</h2>
 			</button>
 
 			<!-- Service Info -->
-			<div class="col-span-6 row-span-5 grid grid-cols-12 grid-rows-6">
+			<div class="md:col-span-full col-span-full row-span-5 grid grid-cols-12 grid-rows-6">
 				<div
-					class="col-span-8 row-span-full flex items-end"
+					class="md:col-span-8 row-span-4 col-span-full md:row-span-6 flex items-end"
 					style="
 						background: url(/assets/Stock_WebDev-min.jpeg) no-repeat center
 							center/cover;
@@ -133,14 +193,15 @@
 					id="service"
 				></div>
 				<div
-					class="bg-secondary px-5 col-span-4 row-span-full"
+					class="bg-secondary px-5 row-start-5 col-span-full row-span-5 md:col-span-4 md:row-span-full"
 					id="service-content"
 				>
 					<div class="text-white text-center" id="service-content">
 						<h2
 							class="
 								font-bold
-								my-5
+								mt-5
+								md:my-5
 								text-xl
 								border-b-8 border-primary
 								pb-2
@@ -150,12 +211,12 @@
 							Website Design
 						</h2>
 
-						<p class="text-lg mb-10">
+						<p class="text-sm md:text-lg md:mb-10">
 							We design fast intuitive websites customized for your business
 							needs. Having a clean professional website allows users to find
 							the information they want quickly and easily.
 						</p>
-						<p class="text-lg">
+						<p class="text-lg hidden lg:block">
 							Depending on your requirements, we can build complex apps using
 							modern frameworks or simple blog sites using WordPress.
 						</p>
@@ -167,11 +228,10 @@
 
 		<!-- Footer -->
 		<footer class="uppercase bg-secondary text-white mt-16 pb-10 pt-5">
-			<div class="w-4/5 flex flex-col mx-auto">
+			<div class="w-4/5 flex md:flex-col mx-auto">
 				<div class="grid grid-cols-12 my-5">
-					
-					<div class=" col-span-1 text-center">
-						<h3 class="text-3xl font-light mb-5 leading-3">Services</h3>
+					<div class="col-start-1 col-span-6 md:col-span-4 text-center">
+						<h3 class="text-3xl font-light mb-5 leading-3 ">Services</h3>
 						<ul class="text-center leading-loose font-thin text-gray-300 text-sm">
 							<li>
 								<a href="#" class="font-thin">Web design</a>
@@ -187,7 +247,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-span-1 col-start-5 text-center">
+					<div class="col-span-6 col-start-7 md:col-start-5 md:col-span-4 text-center">
 						<h3 class="text-3xl font-light mb-5 leading-3">About</h3>
 						<ul class="text-center leading-loose text-gray-300 text-sm">
 							<li>
@@ -204,14 +264,11 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-span-4 items-start col-start-9">
-						<div class="flex mb-5">
-							
-							<h1 class="text-2xl font-logo font-bold uppercase text-hover_primary leading-3">
-								Barrett Design Solutions
-							</h1>
-						</div>
-						<p class="text-xs mb-5">
+					<div class="col-span-4 col-start-1 col-span-full mt-10 md:mt-0 md:col-start-9">
+						<h3 class="text-3xl font-light mb-5 leading-3 font-logo text-hover_primary">
+							Barrett Design Solutions
+						</h3>
+						<p class="text-xs text-gray-300 mb-5">
 							Barrett Design Solutions builds websites for small businesses and
 							manage SEO. Packages include fast builds with WordPress for
 							customer flexibility. Custom HTML/CSS also available depending on
