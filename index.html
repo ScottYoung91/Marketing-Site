@@ -10,8 +10,21 @@
 		<!-- CSS Files -->
 		<link rel="stylesheet" href="styles/tailwind.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/mhh5vga.css" />
+		<link rel="stylesheet" href="modal.css" />
 	</head>
-	<body style="background-color: #EBEBEB">
+
+	<body>
+		<!-- Under Construction Modal -->
+		<div id="myModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content flex justify-center bg-primary uppercase py-2 text-lg text-secondary">
+				
+				<p>Site is under construction. <br/>Some functionality may be missing. <br/> Feel free to look around. <br/>I can be reached at barrettdesignsolutions@gmail.com</p><span class="close text-5xl leading-5">&times;</span>
+			</div>
+		
+		</div>
+
 		<!-- Hero -->
 		<section
 			class="h-80v md:h-90v relative"
@@ -125,7 +138,7 @@
 		</section>
 		
 		<!-- About Us -->
-		<section class="flex flex-col items-center justify-center my-10 md:w-4/5 mx-auto text-secondary">
+		<section class="flex flex-col items-center justify-center py-10 md:w-4/5 mx-auto bg-white text-secondary">
 			<h1 class="uppercase text-2xl font-extrabold">What we do</h1>
 			<p class="px-4 my-10 text-xl text-center font-bold">Barrett Design helps businesses get new customers by improving their Web presence. There are countless small business owners who are talented and passionate about what they do. Our mission is to put them in contact with people who need their services.</p>
 			<h1 class="uppercase text-2xl font-extrabold text-center">-when you succeed, we succeed!</h1>
@@ -134,7 +147,7 @@
 
 		<!-- Services -->
 		<section
-			class="md:w-4/5 mx-auto grid grid-cols-4 grid-rows-6 mt-16"
+			class="md:w-4/5 mx-auto grid grid-cols-4 grid-rows-6"
 			style="height: 600px"
 		>
 			<!-- Service Tabs -->
@@ -142,7 +155,7 @@
 				class="active col-span-1 row-span-1 row-start-6 md:row-start-1 bg-primary hover:bg-hover_primary"
 				id="service1_btn"
 			>
-				<h2 class="text-sm md:text-md uppercase text-white">Website Design</h2>
+				<h2 class="text-sm md:text-lg uppercase text-white">Website Design</h2>
 			</button>
 			<button
 				class="
@@ -155,7 +168,7 @@
 				"
 				id="service2_btn"
 			>
-				<h2 class="text-sm md:text-md uppercase text-white">Search Engine Optimization</h2>
+				<h2 class="text-sm md:text-lg uppercase text-white">Search Engine Optimization</h2>
 			</button>
 			<button
 				class="
@@ -168,7 +181,7 @@
 				"
 				id="service3_btn"
 			>
-				<h2 class="text-sm md:text-md uppercase text-white">Marketing & Ad Campaigns</h2>
+				<h2 class="text-sm md:text-lg uppercase text-white">Marketing & Ad Campaigns</h2>
 			</button>
 			<button
 				class="
@@ -181,7 +194,7 @@
 				"
 				id="service4_btn"
 			>
-				<h2 class="text-sm md:text-md uppercase text-white">App development & CRM</h2>
+				<h2 class="text-sm md:text-lg uppercase text-white">App development & CRM</h2>
 			</button>
 
 			<!-- Service Info -->
