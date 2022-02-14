@@ -1,3 +1,18 @@
+var images = [];
+function preload() {
+	for (var i = 0; i < arguments.length; i++) {
+		images[i] = new Image();
+		images[i].src = preload.arguments[i];
+	}
+}
+
+preload(
+	'/assets/Stock_WebDev-min.jpeg',
+	'/assets/Stock_SEO-min.jpeg',
+	'/assets/Stock_SEO-min.jpeg',
+	'/assets/Stock_AppDev-min.jpeg'
+);
+
 let currentActive = $('#service1_btn');
 const service = $('#service');
 console.log(currentActive);
