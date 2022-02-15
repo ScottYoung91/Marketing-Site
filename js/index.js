@@ -13,7 +13,6 @@ $('#service1_btn').bind('click', function (event) {
 			<div class='text-white text-center' id='service-content'>
 				<h2 class='
 					font-bold
-					mt-5
 					md:my-5
 					text-xl
 					border-b-8 border-primary
@@ -46,7 +45,6 @@ $('#service2_btn').bind('click', function (event) {
 			<div class='text-white text-center' id='service-content'>
 				<h2 class='
 					font-bold
-					mt-5
 					md:my-5
 					text-xl
 					border-b-8 border-primary
@@ -76,7 +74,6 @@ $('#service3_btn').bind('click', function (event) {
 			<div class='text-white text-center' id='service-content'>
 				<h2 class='
 					font-bold
-					mt-5
 					md:my-5
 					text-xl
 					border-b-8 border-primary
@@ -106,7 +103,6 @@ $('#service4_btn').bind('click', function (event) {
 			<div class='text-white text-center' id='service-content'>
 				<h2 class='
 				font-bold
-				mt-5
 				md:my-5
 				text-xl
 				border-b-8 border-primary
