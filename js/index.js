@@ -7,7 +7,7 @@ $('#service1_btn').bind('click', function (event) {
 		$(event.currentTarget).toggleClass('active');
 		service.css(
 			'background',
-			'url(/assets/Stock_WebDev-min.jpeg) no-repeat center center/cover'
+			'url(/assets/Stock_WebDev-min.webp) no-repeat center center/cover'
 		);
 		$('#service-content').html(`
 			<div class='text-white text-center' id='service-content'>
@@ -40,7 +40,7 @@ $('#service2_btn').bind('click', function (event) {
 		$(event.currentTarget).toggleClass('active');
 		service.css(
 			'background',
-			'url(/assets/Stock_SEO-min.jpeg) no-repeat center center/cover'
+			'url(/assets/Stock_SEO-min.webp) no-repeat center center/cover'
 		);
 		$('#service-content').html(`
 			<div class='text-white text-center' id='service-content'>
@@ -70,7 +70,7 @@ $('#service3_btn').bind('click', function (event) {
 		$(event.currentTarget).toggleClass('active');
 		service.css(
 			'background',
-			'url(/assets/Stock_Marketing-min.jpeg) no-repeat center center/cover'
+			'url(/assets/Stock_Marketing-min.webp) no-repeat center center/cover'
 		);
 		$('#service-content').html(`
 			<div class='text-white text-center' id='service-content'>
@@ -100,7 +100,7 @@ $('#service4_btn').bind('click', function (event) {
 		$(event.currentTarget).toggleClass('active');
 		service.css(
 			'background',
-			'url(/assets/Stock_AppDev-min.jpeg) no-repeat center center/cover'
+			'url(/assets/Stock_AppDev-min.webp) no-repeat center center/cover'
 		);
 		$('#service-content').html(`
 			<div class='text-white text-center' id='service-content'>
