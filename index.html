@@ -8,7 +8,7 @@
 		<meta name="keywords" content="shopify layouts, wordpress themes, denton website design, denton graphic design, denton SEO, website design, graphic design, SEO, shopify, wordpress, graphic design dfw, plano web design">
 		<title>Barrett Design</title>
 		<!-- CSS Files -->
-		<link rel="stylesheet" href="styles/tailwind.css" />
+		<link rel="stylesheet" href="build.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/mhh5vga.css" />
 		<link rel="stylesheet" href="modal.css" />
 		<link rel="preload" href="/assets/Portfolio_Hero-min.webp" as="image">
@@ -56,7 +56,7 @@
 			</nav>
 
 			<!-- Nav Mobile -->
-			<div class="md:hidden flex items-center h-10 justify-end bg-secondary h-16">
+			<div class="md:hidden flex items-center justify-end bg-secondary h-16">
 				<div class="flex items-center absolute left-0">
 					<h1 class="text-2xl font-logo font-bold uppercase text-primary ml-6">
 						Barrett Design
@@ -150,53 +150,68 @@
 		>
 			<!-- Service Tabs -->
 			<button
-				class="active col-span-1 row-span-1 row-start-1 bg-hover_primary hover:bg-primary"
+				class="active col-span-1 row-span-1 row-start-1 bg-primary md:bg-secondary hover:bg-primary"
 				id="service1_btn"
 			>
-				<h2 class="text-sm font-bold md:text-lg uppercase text-secondary">Website Design</h2>
+				<h2 class="text-xs  md:text-lg uppercase text-white">Website Design</h2>
 			</button>
 			<button
 				class="
+					text-sm
 					col-span-1
 					row-span-1
-					bg-hover_primary
+					bg-primary
+					md:bg-secondary
 					hover:bg-primary
-					border-white border-l-2
+					border-white
+					md:border-primary 
+					md:border-l-8
+					border-l-2
 					row-start-1
 				"
 				id="service2_btn"
 			>
-				<h2 class="text-sm font-bold md:text-lg uppercase text-secondary">Search Engine Optimization</h2>
+				<h2 class="text-xs  md:text-lg uppercase text-white">Search Engine Optimization</h2>
 			</button>
 			<button
 				class="
+					text-sm
 					col-span-1
 					row-span-1
-					bg-hover_primary
+					bg-primary
+					md:bg-secondary
 					hover:bg-primary
-					border-white border-l-2
+					border-white
+					md:border-primary 
+					md:border-l-8 
+					border-l-2
 					row-start-1
 				"
 				id="service3_btn"
 			>
-				<h2 class="text-sm font-bold md:text-lg uppercase text-secondary">Marketing & Ad Campaigns</h2>
+				<h2 class="text-xs  md:text-lg uppercase text-white">Marketing & Ad Campaigns</h2>
 			</button>
 			<button
 				class="
 					col-span-1
 					row-span-1
-					bg-hover_primary
+					bg-primary
+					md:bg-secondary
 					hover:bg-primary
-					border-white border-l-2
+					border-white
+					md:border-primary 
+					md:border-l-8 
+					border-l-2
 					row-start-1
 				"
 				id="service4_btn"
 			>
-				<h2 class="text-sm font-bold md:text-lg uppercase text-secondary">App development & CRM</h2>
+				<h2 class="text-xs  md:text-lg uppercase text-white">App development & CRM</h2>
 			</button>
 
 			<!-- Service Info -->
-			<div class="md:col-span-full col-span-full row-span-5 grid grid-cols-12 grid-rows-6">
+			<div class="md:col-span-full col-span-full row-span-5 md:border-t-8 
+			md:border-primary grid grid-cols-12 grid-rows-6">
 				<div
 					class="md:col-span-8 row-span-4 col-span-full md:row-span-6 flex items-end"
 					style="
@@ -275,8 +290,8 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-span-4 col-start-1 col-span-full mt-10 text-center">
-						<h3 class="text-3xl font-light mb-5 font-logo text-hover_primary">
+					<div class="col-start-1 col-span-full mt-10 text-center">
+						<h3 class="text-3xl font-light mb-5 font-logo text-seconbg-secondary">
 							Barrett Design Solutions
 						</h3>
 						<p class="text-xs text-gray-300 mb-5">
