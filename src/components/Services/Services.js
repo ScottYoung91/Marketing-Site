@@ -21,7 +21,7 @@ const Services = () => {
 					className='service-image'
 				/>
 			</div>
-			<div className='service right-align'>
+			<div className='service right-align reverse'>
 				<img src={'./assets/image-seo.png'} alt='' className='service-image' />
 				<div className='service-content'>
 					<h1>Search Optimization</h1>

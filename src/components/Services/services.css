@@ -48,3 +48,45 @@
 	height: 100%;
 	width: 50%;
 }
+@media only screen and (max-width: 600px) {
+	.services h2 {
+		font-size: 2.5rem;
+		text-align: center;
+	}
+	.service {
+		flex-direction: column-reverse;
+		height: auto;
+		margin-bottom: 16px;
+	}
+	.service.reverse {
+		flex-direction: column;
+	}
+	.service-content {
+		width: 100%;
+		background-color: #eeeeee;
+		padding: 10px 59px;
+		text-align: center;
+	}
+	.service-content h1 {
+		font-size: 1.5rem;
+		font-weight: bold;
+		letter-spacing: 0.2rem;
+		color: #333;
+	}
+	.service-content h4 {
+		font-size: 0.7rem;
+		font-weight: 700;
+		color: #333;
+	}
+	.service-content p {
+		margin-top: 15px;
+		font-size: 1rem;
+		font-weight: 700;
+		letter-spacing: 0.05rem;
+		line-height: 1;
+		color: #333;
+	}
+	.service-image {
+		width: 100%;
+	}
+}
