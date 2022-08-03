@@ -1,0 +1,50 @@
+.services {
+	max-width: 1440px;
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	align-items: center;
+}
+.services h2 {
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+.service {
+	height: 417px;
+	display: flex;
+	width: 100%;
+}
+.service.right-align {
+	text-align: right;
+}
+
+.service-content {
+	width: 50%;
+	height: 100%;
+	background-color: #eeeeee;
+	padding: 79px 59px;
+}
+.service-content h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	color: #333;
+}
+.service-content h4 {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #333;
+}
+.service-content p {
+	margin-top: 30px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+	line-height: 1.4;
+	color: #333;
+}
+.service-image {
+	height: 100%;
+	width: 50%;
+}
