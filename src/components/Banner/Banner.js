@@ -12,7 +12,7 @@ const Banner = () => {
 					talented and passionate about what they do. Our mission is to put them
 					in contact with people who need their services.
 				</p>
-				<h2>-WHEN YOU SUCCEED, WE SUCCEED!</h2>
+				<h2>WHEN YOU SUCCEED, WE SUCCEED!</h2>
 			</div>
 			<div className='banner-cards'>
 				<div className='banner-card'>

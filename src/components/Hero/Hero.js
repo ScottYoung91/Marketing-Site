@@ -15,7 +15,12 @@ const Hero = () => {
 				alt=''
 				className='hero-image wide'
 			/>
-			<img src='/assets/mobile-bg.png' alt='' className='hero-image mobile' />
+			<img
+				src='/assets/mobile-bg.png
+			'
+				alt=''
+				className='hero-image mobile'
+			/>
 		</section>
 	);
 };

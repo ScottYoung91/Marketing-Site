@@ -64,9 +64,8 @@ nav .mobile-menu button {
 		padding: 0 15px;
 	}
 	.logo {
-		height: 30px;
-		width: 40px;
-		margin-right: 5px;
+		height: 100px;
+		margin-right: 0;
 	}
 	nav .nav-items {
 		display: none;
@@ -87,7 +86,8 @@ nav .mobile-menu button {
 	}
 	nav .logo-container h2 {
 		font-size: 1rem;
-		letter-spacing: -1.05;
+		letter-spacing: 0.1rem;
+		color: #333;
 	}
 	nav .nav-items .nav-item {
 		width: 90%;
