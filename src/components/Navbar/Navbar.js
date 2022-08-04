@@ -23,7 +23,7 @@ const Navbar = () => {
 					}}
 				>
 					<img
-						src={'./assets/icon-hamburger.svg'}
+						src={'./assets/icon-hamburger.png'}
 						alt='nav-button'
 						className='hamburger'
 					/>
