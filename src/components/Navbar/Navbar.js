@@ -19,7 +19,7 @@ const Navbar = () => {
 				<button
 					onClick={() => {
 						document.querySelector('.nav-items').style.display = 'flex';
-						setShowNav(true);
+						setShowNav(!showNav);
 					}}
 				>
 					<img

@@ -61,6 +61,12 @@ nav .mobile-menu button {
 		justify-content: space-between;
 		flex-shrink: 0;
 		height: 68px;
+		padding: 0 15px;
+	}
+	.logo {
+		height: 30px;
+		width: 40px;
+		margin-right: 5px;
 	}
 	nav .nav-items {
 		display: none;
@@ -80,7 +86,7 @@ nav .mobile-menu button {
 		display: block;
 	}
 	nav .logo-container h2 {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		letter-spacing: -1.05;
 	}
 	nav .nav-items .nav-item {

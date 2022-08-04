@@ -33,9 +33,19 @@
 	height: 700px;
 }
 
+.mobile {
+	display: none;
+}
+
 @media only screen and (max-width: 600px) {
+	.mobile {
+		display: flex;
+	}
+	.wide {
+		display: none;
+	}
 	.hero-container {
-		height: 500px;
+		height: 600px;
 		width: 100%;
 		position: relative;
 		display: flex;
@@ -53,5 +63,12 @@
 		color: #fff;
 		text-transform: uppercase;
 		font-family: 'Articulat CF', 'sans-serif';
+	}
+	.hero-image {
+		position: absolute;
+		top: 0px;
+		right: 0;
+		height: 700px;
+		z-index: -1;
 	}
 }
