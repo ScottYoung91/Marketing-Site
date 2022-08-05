@@ -5,7 +5,7 @@ const Contact = () => {
 	return (
 		<section className='contact'>
 			<div className='container'>
-				<form action='' className='contact-form' netlify>
+				<form action='' className='contact-form' name='contact ' netlify>
 					<h4>Contact Us</h4>
 					<input type='text' name='name' id='name' placeholder='name' />
 					<input type='text' name='email' id='email' placeholder='email' />
