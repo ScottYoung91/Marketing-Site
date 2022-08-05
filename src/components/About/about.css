@@ -5,8 +5,6 @@
 	background-color: #1e156e;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-
-	font-family: 'Articulat CF', 'sans-serif';
 }
 
 .about-left {

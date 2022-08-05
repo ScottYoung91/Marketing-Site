@@ -1,0 +1,12 @@
+.blog-card {
+	background-color: white;
+	border-radius: 3px;
+	height: 290px;
+	display: grid;
+	grid-template-rows: 4fr 5fr 2fr;
+	padding-left: 3rem;
+}
+
+.blog-card h2 {
+	align-self: center;
+}

@@ -4,8 +4,6 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 30px;
-
-	font-family: 'Articulat CF', 'sans-serif';
 }
 nav .mobile-menu {
 	display: none;
