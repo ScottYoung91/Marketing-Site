@@ -29,10 +29,9 @@
 
 .banner-cards {
 	background-color: #1e156e;
-	display: flex;
+	display: grid;
 	color: #fff;
-	justify-content: space-around;
-	padding: 0 200px;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 .banner-card {
 	display: flex;
@@ -65,11 +64,6 @@
 		max-width: 100%;
 	}
 	.banner-cards {
-		background-color: #1e156e;
-		display: flex;
-		color: #fff;
-		justify-content: space-around;
-		padding: 0;
 		grid-row-start: 1;
 	}
 	.banner-card {
@@ -79,13 +73,13 @@
 		justify-content: center;
 	}
 	.banner-card h3 {
-		font-size: 0.7rem;
+		font-size: 0.5rem;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+		text-align: center;
 	}
 	.banner-card img {
 		margin-top: 10px;
-		height: 50px;
-		width: 50px;
+		height: 35px;
 	}
 }
