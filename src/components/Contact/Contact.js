@@ -9,7 +9,8 @@ const Contact = () => {
 					action=''
 					className='contact-form'
 					name='contact '
-					netlify
+					method='POST'
+					data-netlify='true'
 					netlify-honeypot='bot-field'
 				>
 					<h4>Contact Us</h4>
