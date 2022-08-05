@@ -24,13 +24,20 @@ const About = () => {
 					for.
 				</p>
 				<div className='socials'>
-					<img src='./assets/icon-email.png' alt='' className='social-icon' />
-					<img src='./assets/icon-git.png' alt='' className='social-icon' />
-					<img
-						src='./assets/icon-linkedin.png'
-						alt=''
-						className='social-icon'
-					/>
+					<a href='mailto:sbyoung25@gmail.com'>
+						<img src='./assets/icon-email.png' alt='' className='social-icon' />
+					</a>
+					<a href='https://github.com/ScottYoung91'>
+						<img src='./assets/icon-git.png' alt='' className='social-icon' />
+					</a>
+
+					<a href='https://www.linkedin.com/in/scott-young-023705150/'>
+						<img
+							src='./assets/icon-linkedin.png'
+							alt=''
+							className='social-icon'
+						/>
+					</a>
 				</div>
 			</div>
 		</div>
