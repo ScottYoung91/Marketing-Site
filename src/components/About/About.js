@@ -6,11 +6,11 @@ const About = () => {
 		<div className='about'>
 			<div className='about-left'>
 				<img
-					src='./thumbnail.jpg'
+					src='./assets/thumbnail.jpg'
 					alt=''
 					height={200}
 					width={200}
-					style={{ borderRadius: '50%' }}
+					style={{ borderRadius: '50%', marginBottom: '15px' }}
 				/>
 				<p>Bachelors of Computer Science</p>
 				<p>Univeristy of North Texas</p>
@@ -24,9 +24,13 @@ const About = () => {
 					for.
 				</p>
 				<div className='socials'>
-					<img src='./icon-email.png' alt='' className='social-icon' />
-					<img src='./icon-git.png' alt='' className='social-icon' />
-					<img src='./icon-linkedin.png' alt='' className='social-icon' />
+					<img src='./assets/icon-email.png' alt='' className='social-icon' />
+					<img src='./assets/icon-git.png' alt='' className='social-icon' />
+					<img
+						src='./assets/icon-linkedin.png'
+						alt=''
+						className='social-icon'
+					/>
 				</div>
 			</div>
 		</div>
