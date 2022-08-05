@@ -6,7 +6,6 @@ const Contact = () => {
 		<section className='contact'>
 			<div className='container'>
 				<form
-					action=''
 					className='contact-form'
 					name='contact '
 					method='POST'
